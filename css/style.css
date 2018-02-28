@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav css start */
+.cmp_nav {
+    height:70px;
+    background-color: #242424;
+    border-color: #e7e7e7;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+/*.wjs_nav .navbar-brand {*/
+    /*color: #777;*/
+    /*height: 80px;*/
+    /*line-height: 50px;*/
+/*}*/
+/*.wjs_nav .navbar-brand:hover,*/
+/*.wjs_nav .navbar-brand:focus {*/
+    /*color: #5e5e5e;*/
+    /*background-color: transparent;*/
+/*}*/
+
+
+.cmp_nav .navbar-text {
+    color: #777;
+}
+.cmp_nav .navbar-nav > li > a {
+    color: #777;
+    height: 65px;
+    line-height: 50px;
+}
+.cmp_nav .navbar-nav > li > a:hover,
+.cmp_nav .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #000000;
+
+}
+.cmp_nav .navbar-nav > .active > a,
+.cmp_nav .navbar-nav > .active > a:hover,
+.cmp_nav .navbar-nav > .active > a:focus {
+    /*color: #555;*/
+}
+.serch{
+    width: 200px;
+    height: 30px;
+    background: #fff;
+    margin-top: 25px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    position: relative;
+}
+.serch .glyphicon-search{
+    left: 2px;
+    top:7px;
+    position: absolute;
+    cursor: pointer;
+}
+.serch .inp{
+    top:5px;
+    width: 170px;
+    left: 20px;
+    display: block;
+    position: absolute;
+    border: none;
+    /*margin-top: 28px;*/
+    /*line-height: 30px;*/
+}
+.cmp_nav .navbar-nav > .disabled > a,
+.cmp_nav .navbar-nav > .disabled > a:hover,
+.cmp_nav .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.cmp_nav .navbar-toggle {
+    border-color: #ddd;
+}
+.cmp_nav .navbar-toggle:hover,
+.cmp_nav .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.cmp_nav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.cmp_nav .navbar-collapse,
+.cmp_nav .navbar-form {
+    border-color: #e7e7e7;
+}
+
+@media (max-width: 768px) { /* 自定义的媒介查询  */
+    .cmp_nav .navbar-collapse,
+    .cmp_nav .navbar-form {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 1000;
+        margin: 0;
+    }
+    .cmp_nav  .navbar-header {
+        width: 100%;
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        margin-left: 0!important;
+    }
+
+
+}
+.cmp_nav .navbar-nav > .open > a,
+.cmp_nav .navbar-nav > .open > a:hover,
+.cmp_nav .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .cmp_nav .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .cmp_nav .navbar-nav .open .dropdown-menu > li > a:hover,
+    .cmp_nav .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .cmp_nav .navbar-nav .open .dropdown-menu > .active > a,
+    .cmp_nav .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .cmp_nav .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .cmp_nav .navbar-nav .open .dropdown-menu > .disabled > a,
+    .cmp_nav .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .cmp_nav .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.cmp_nav .navbar-link {
+    color: #777;
+}
+.cmp_nav .navbar-link:hover {
+    color: #333;
+}
+.cmp_nav .btn-link {
+    color: #777;
+}
+.cmp_nav .btn-link:hover,
+.cmp_nav .btn-link:focus {
+    color: #333;
+}
+.cmp_nav .btn-link[disabled]:hover,
+fieldset[disabled] .cmp_nav .btn-link:hover,
+.cmp_nav .btn-link[disabled]:focus,
+fieldset[disabled] .cmp_nav .btn-link:focus {
+    color: #ccc;
+}
+
+.cmp_icon_logo {
+    color:#6BC233;
+    font-size: 50px;
+    vertical-align: middle;
+}
+.glyphicon-music{
+    font-size: 30px;
+    color:#6BC233;
+}
+
+.cmp_icon_word {
+    color:#6BC233;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+
+
+/* nav css end */
